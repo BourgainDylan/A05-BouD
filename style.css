@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.carte {
+
+    position: relative;
+}
+
+.carte img{
+    width:800px;
+}
+
+.pos-1, .pos-2, .pos-3, .pos-4, .pos-5, .pos-6, .pos-7, .pos-8, .pos-9, .pos-10{
+    color:black;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+  padding:2px;
+    border:solid black 1px;
+}
+
+.pos-1{
+    position:absolute;
+    top:20%;
+    left:20%;
+}
+
+.pos-2{
+    position:absolute;
+    top:40%;
+    left:30%;
+}
+
+.pos-3{
+    position:absolute;
+    top:70%;
+    left:15%;
+}
+ 
+
+.pos-4{
+    position:absolute;
+    top:50%;
+    left:8%;
+}
+ 
+
+.pos-5{
+    position:absolute;
+    top:35%;
+    left:10%;
+}
+
+.pos-6{
+    position:absolute;
+    top:70%;
+    left:30%;
+}
+ 
+ 
+
+.pos-7{
+    position:absolute;
+    top:40%;
+    left:20%;
+}
+ 
+
+.pos-7{
+    position:absolute;
+    top:20%;
+    left:10%;
+}
+ 
+ 
+
+.pos-8{
+    position:absolute;
+    top:35%;
+    left:20%;
+}
+ 
+ 
+
+.pos-9{
+    position:absolute;
+    top:50%;
+    left:17%;
+}
+ 
+ 
+
+.pos-10{
+    position:absolute;
+    top:10%;
+    left:12%;
+}
+ 
+
+
+
+.meteo{
+  color:black;
+  font-weight: bolder;
+   font-size: 100px;
+   letter-spacing: 10px;
+   position:absolute;
+   top:50%;
+   left:50%;
+}
+
+
+.seasons {
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-variant: small-caps;
+}
+
+
+
+.link{
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 20px;
+   
+  
+    
+}
+
+.accueil{
+    text-decoration: none;
+    font-size: 30px;
+    color:red;
+}
